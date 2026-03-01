@@ -31,7 +31,7 @@ function URLInput() {
                 });
                 const data = await response.json();
                 // console.log(data.shortCode);
-                setShortURL(window.location.protocol + '//' + location.hostname + '/' + data.shortCode);
+                setShortURL(window.location.protocol + '//' + location.hostname + '/api/' + data.shortCode);
 
             }
             catch (err) {
