@@ -24,7 +24,7 @@ function URLInput() {
         console.log(validateURL(url));
         if (validateURL(url)){
             try {
-                const response = await fetch("https://truncc8.vercel.app/shorten", {
+                const response = await fetch("https://truncc8.vercel.app/api/shorten", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ url: url })

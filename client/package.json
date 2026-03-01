@@ -12,8 +12,11 @@
   "dependencies": {
     "@mantine/core": "^8.3.15",
     "@tabler/icons-react": "^3.37.1",
+    "dotenv": "^17.3.1",
+    "mongoose": "^9.2.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vercel": "^50.25.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

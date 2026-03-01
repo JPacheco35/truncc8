@@ -1,1 +1,3 @@
 /api/.env
+.vercel
+.env*.local
