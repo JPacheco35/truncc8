@@ -2,6 +2,8 @@
 
 A simple url shortener web app written in TypeScript.
 
+![Alt text](./images/demo.png)
+
 ## 🚀 Features
 
 - **Shorten URLs**
