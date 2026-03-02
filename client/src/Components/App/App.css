@@ -15,6 +15,11 @@
     transform: translateY(-100px);
 }
 
+.item-2 {
+    width: 80%;       /* adjust this value */
+    max-width: 700px; /* optional limit */
+}
+
 .item-3 {
     height: 5rem;
 }

@@ -5,7 +5,12 @@ function Header() {
 
     return (
         <Center>
-            <Stack gap="xs">
+            <Stack
+              gap="xs"
+              style={{
+                gap: '0.25rem',
+              }}
+            >
                 <Title
                     className={"gradient-animate"}
                     order={1}
