@@ -52,7 +52,7 @@ function URLInput() {
                 });
                 const data = await response.json();
                 // console.log(data.shortCode);
-                setShortURL('https:/truncc8.vercel.app/api/' + data.shortCode);
+                setShortURL('https:/truncc8.vercel.app/apiAAA/' + data.shortCode);
 
             }
             catch (err) {
